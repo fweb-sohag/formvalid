@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.form_continer{
+    width: 500px;
+    padding: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid green;
+}
+.form_group{
+    margin: 20px 0;
+}
+button{
+    background-color: burlywood;
+    border: none;
+   line-height: 30px;
+    width: 100%;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 15px;
+
+}
